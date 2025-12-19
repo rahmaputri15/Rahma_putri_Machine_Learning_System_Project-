@@ -1,0 +1,18 @@
+# Python (File kompilasi yang tidak perlu)
+__pycache__/
+*.pyc
+
+# MLflow (Data eksperimen lokal agar tidak mengotori GitHub)
+mlruns/
+mlflow.db
+
+# Keamanan (Sangat penting! Jangan sampai API Key/Password bocor)
+.env
+
+# Virtual Environment (Jika kamu pakai venv)
+venv/
+.venv/
+env/
+
+# Data (Opsional: Jika dataset terlalu besar >100MB, sebaiknya tidak di-push)
+# data_original.csv
